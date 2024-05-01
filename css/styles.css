@@ -645,7 +645,7 @@ section {
 	transform:scale(1.5);
 }
 .menu-icon div { 
-	width: 30px; /* Adjust the width of the bars */
+	width: 30px; 
     height: 20px; 
     background-color: #ec8282; 
     margin: 6px auto; 
@@ -722,22 +722,22 @@ section {
     padding: 10px;
     font-size: 2em;
     line-height: 1.2;
-    text-align: center; /* Center the heading */
+    text-align: center; 
 }
 
 #galleryphotos {
     display: flex;
-    flex-wrap: wrap; /* Allow the images to wrap to the next row */
-    justify-content: center; /* Center the images horizontally */
-    align-items: center; /* Center the images vertically */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 #galleryphotos img {
     display: flex;
-	width: 100%; /* Ensure images fill their container */
+	width: 100%; 
    padding: 10px;
-    height: auto /* Maintain aspect ratio */
-    margin: 10px; /* Add some margin around each image */
+    height: auto; 
+    margin: 10px; 
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -778,7 +778,7 @@ section {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 20px; /* Add margin for spacing */
+    margin-bottom: 20px; 
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -790,7 +790,7 @@ section {
     border: none;
     border-radius: 12px;
     padding: 15px 0;
-    width: 80%; /* Adjust button width for mobile */
+    width: 80%; 
     text-align: center;
     text-decoration: none;
     display: block;
@@ -799,7 +799,7 @@ section {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin: 20px auto; /* Center the button */
+    margin: 20px auto; 
     transition: background-color 0.3s ease;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -834,8 +834,8 @@ ul {
 .tab-desk {
     position: sticky;
     top: 0;
-    background-color: #ec8282; /* Add background color if needed */
-    z-index: 1000; /* Ensure it's above other elements */
+    background-color: #ec8282; 
+    z-index: 1000; 
 }
 #mobile-events {
 	display:none;
@@ -864,11 +864,11 @@ nav li a:hover {
 	transform:scale(1.2);
 }
 .mobile-nav {
-    display: none; /* Hide mobile nav by default */
+    display: none; 
 }
 
 .tab-desk {
-    display: block; /* Display desktop nav by default */
+    display: block; 
 }
 .tab-desk ul {
     list-style-type: none;
@@ -1002,7 +1002,7 @@ nav li a:hover {
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
     padding: 10px; 
-    margin-bottom: 10px 
+    margin-bottom: 10px; 
     text-align: center; 
     text-transform: uppercase; 
     letter-spacing: 1px; 
